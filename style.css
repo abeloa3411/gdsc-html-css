@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: dodgerblue;
+  height: 80px;
+  padding: 0 20px;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo-header {
+  margin-right: 30px;
+}
+
+.logo-links ul {
+  list-style: none;
+  display: flex;
+}
+.list {
+  margin-right: 20px;
+}
+
+.account {
+  display: flex;
+}
+
+.account p {
+  margin-right: 10px;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+.info {
+  padding: 0 30px;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  padding-bottom: 20px;
+  padding: 20px;
+}
+
+input {
+  padding: 10px;
+}
+
+.btn {
+  padding: 10px 15px;
+  background: dodgerblue;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
+  margin-top: 20px;
+  padding: 0 20px;
+}
